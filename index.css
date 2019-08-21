@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+}
+#section1 {
+    position: absolute;
+    top: 0px; left: 0px;
+    width: 98.9vw;
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_pic/05/09/75/685987201c28d78.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#section1 h1 {
+    font-size: 50px;
+    color: grey;
+    position: relative;
+    top: 35%;
+    right: 5%;
+    text-align: right;
+}
+#section2 {
+    margin-top: 100vh;
+    width: 98.9vw;
+    height: 850px;
+    background-image: url(https://stmed.net/sites/default/files/blood-donor-month-wallpapers-28330-2217999.png);
+    background-size: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+#section2 h1 {
+    width: 850px;
+    position: relative;
+    top: 150px;
+    font-size: 120px;
+    transform: rotateZ(-25deg);
+    color: white;
+}
+#section2 h2 {
+    width: 500px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+    color: white;
+    float: right;
+    right: 160px;
+    font-size: 50px;
+}
+#section2 input {
+    position: relative;
+    float: right;
+    top: 300px;
+    right: -245px;
+    font-size: 25px;
+    padding: 20px 50px;
+    border-radius: 15px;
+    background-color: bisque;
+    outline: none;
+    border: 1px solid bisque;
+}
+#section2 input:hover {
+    animation: register 1s forwards;
+}
+@keyframes register {
+    0% {
+        background-color: bisque;
+        border: 1px solid bisque;
+        color: black;
+    }
+    50% {
+        background-color: yellow;
+        border: 1px solid bisque;
+        color: black;
+        transform: scale(0.9);
+    }
+    100% {
+        background-color: yellow;
+        border: 1px solid red;
+        color: royalblue;
+        transform: scale(1.2);
+    }
+}
+#section3 marquee {
+    letter-spacing: 5px;
+    font-size: 35px;
+    color: blue;
+    background-color: yellow;
+}
+#section4 {
+    position: relative;
+    top: -75px;
+    width: 98.9vw;
+    height: 100vh;
+    background-color: antiquewhite
+}
+#section4 h1 {
+    width: 600px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 90px;
+    animation: blink 0.5s reverse infinite;
+}
+@keyframes blink {
+    0% {
+        color: white;
+    }
+    100% {
+        color: #dc143c;
+    }
+}
+#section4 h3 {
+    position: relative;
+    right: 50px;
+    text-align: center;
+    line-height: 1.5;
+    float: right;
+    font-size: 40px;
+}
+#section4 input {
+    font-size: 30px;
+    letter-spacing: 3px;
+    position: relative;
+    left: 100px;
+    top: 300px;
+    padding: 60px 200px; 
+    border-radius: 25px;
+    outline: none;
+    background-color: lightcyan; 
+    border: 2px solid darkcyan;
+}
+#section4 input:hover {
+    animation: help-btn 0.5s alternate infinite;
+}
+@keyframes help-btn {
+    0% {
+        background-color: coral;
+        border: 2px solid blue;
+    }
+    100% {
+        background-color: transparent;
+        border: 2px solid blueviolet;
+    }
+}
+#section5 {
+    width: 98.8vw;
+    margin-top: -77px; 
+    margin-bottom: 40px;
+}
+#nav {
+    width: 98.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dc143c;
+}
+#nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 30px 56px;
+    border-radius: 15px;
+}
+#nav a:hover {
+    animation: backchange 1s 1 forwards;
+}
+@keyframes backchange {
+    0% {
+        background-color: #dc143c;
+        color: black;
+    }
+    100% {
+        background-color: white;
+        color: blue;
+        transform: scale(1.2);
+    }
+}
+#section6 iframe {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+#section7 {
+    position: relative;
+    top: 140px;
+    width: 98.9vw;
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+#section7 p:first-of-type {
+    font-size: 25px;
+    padding: 70px 0px 0px 60px;
+}
+#section7 p:nth-of-type(2) {
+    font-size: 25px;
+    padding: 20px 0px 0px 60px;
+}
+#section7 p:nth-of-type(2) a {
+    text-decoration: none;
+}
+#section7 h3 {
+    font-size: 40px;
+    position: relative;
+    right: 50px;
+    bottom: 180px;
+    float: right;
+    background-color: black;
+}

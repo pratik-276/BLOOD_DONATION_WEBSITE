@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    line-height: 0.5;
+    background: url(http://www.myfreephotoshop.com/wp-content/uploads/2014/07/302.jpg);
+    background-size: 100% 150%;
+    background-repeat: no-repeat;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 900;
+}
+#qa {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 50px 0px 50px 40px;
+}
+.qn {
+    font-size: 35px;
+    font-weight: 600;
+}
+.ans {
+    font-size: 25px;
+    padding-bottom: 40px;
+    line-height: 1;
+}
+body>p {
+    font-size: 25px;
+    font-weight: 400;
+}
+body>p>a {
+    text-decoration: none;
+}
+#section5 {
+    display: inline-flex;
+}
+#section5 p {
+    font-size: 30px;
+}
+#section5 img {
+    padding: 15px 0px 0px 20px;
+    height: 40px;
+    width: 40px;
+}

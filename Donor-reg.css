@@ -1,0 +1,45 @@
+body {
+    background-color: lightgray;
+}
+#form-wrapper {
+    background-color: white;
+    width: 55vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#form-wrapper h3 {
+    font-size: 35px;
+    padding: 40px 0px 40px 0px
+}
+#form-wrapper .head-input {
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    padding: 15px 300px 15px 20px;
+    text-align: start;
+    margin-bottom: 20px; 
+}
+#form-wrapper .head-input:hover {
+    box-shadow: whitesmoke 10px 10px 10px; 
+}
+#form-wrapper .head-input:focus {
+    box-shadow: whitesmoke 10px 10px 10px;
+}
+#form-wrapper .btn {
+    padding: 15px 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: lawngreen;
+    border-radius: 7px;
+    font-size: 15px;
+}
+.btn:hover {
+    border: 4px solid blueviolet;
+}
+#form-wrapper h4 {
+    font-size: 20px;
+}
+#form-wrapper h4 a {
+    text-decoration: none;
+}

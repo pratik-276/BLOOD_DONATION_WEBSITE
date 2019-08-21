@@ -1,0 +1,21 @@
+body {
+    background: url(https://www.123freevectors.com/wp-content/original/108129-light-blue-wave.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+h1 {
+    margin-top: 60px;
+    font-size: 50px;
+}
+#big-wrapper {
+    width: 63vw;
+    font-size: 23px;
+    text-align: left;
+    padding: 10px 50px 0px 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#big-wrapper p {
+    padding-bottom: 30px;
+}
